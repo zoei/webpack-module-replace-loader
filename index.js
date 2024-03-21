@@ -16,7 +16,7 @@ function getReplacedResourcePath(resourcePath, options) {
 
 module.exports = function(source) {
   this.cacheable && this.cacheable();
-  const newResourcePath = getReplacedResourcePath(this.resourcePath, this.getOptions);
+  const newResourcePath = getReplacedResourcePath(this.resourcePath, this.getOptions());
   if (newResourcePath === this.resourcePath) {
     return source;
   }
