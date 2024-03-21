@@ -33,7 +33,7 @@ $ npm install webpack-module-replace-loader --save-dev
 
 #### Build with webpack
 ```js
-$ BUILD_ENV=production webpack
+$ NODE_ENV=production webpack
 ```
 ##### This will replace src/config.json with src/config.prod.json
 
