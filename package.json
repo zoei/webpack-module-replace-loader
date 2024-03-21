@@ -1,6 +1,6 @@
 {
   "name": "@zoei/webpack-module-replace-loader",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "replace module",
   "main": "index.js",
   "scripts": {
